@@ -111,11 +111,10 @@ function ModernReversedComingSoonPage() {
 					<div className="relative z-10 w-full max-w-4xl">
 						<div className="text-7xl font-bold leading-none text-gray-100">
 							<div>Welcome to</div>
-							<div>our community</div>
+							<div>Good Tether</div>
 						</div>
 						<div className="mt-6 text-lg leading-6 tracking-tight text-gray-400">
-							Fuse helps developers to build organized and well coded dashboards full of beautiful and
-							rich modules. Join us and start building your application today.
+							Good Tether is a standard for cryptocurrency payments.
 						</div>
 						<div className="mt-8 flex items-center">
 							<AvatarGroup
