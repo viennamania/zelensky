@@ -252,6 +252,7 @@ const navigationConfig: FuseNavItemType[] = [
 			}
 		]
 	},
+	/*
 	{
 		id: 'pages',
 		title: 'Pages',
@@ -775,6 +776,7 @@ const navigationConfig: FuseNavItemType[] = [
 			}
 		]
 	}
+	*/
 ];
 
 export default navigationConfig;
