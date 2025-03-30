@@ -1,5 +1,6 @@
 import Typography from '@mui/material/Typography';
 import clsx from 'clsx';
+
 import MainProjectSelection from '@/components/MainProjectSelection';
 
 type DocumentationSidebarHeaderProps = {
@@ -25,7 +26,11 @@ function DocumentationSidebarHeader(props: DocumentationSidebarHeaderProps) {
 					DOCS
 				</Typography>
 			</div>
+
+			
 			<MainProjectSelection />
+			
+
 		</div>
 	);
 }

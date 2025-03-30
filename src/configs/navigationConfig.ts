@@ -15,36 +15,42 @@ i18n.addResourceBundle('ar', 'navigation', ar);
 const navigationConfig: FuseNavItemType[] = [
 	{
 		id: 'dashboards',
-		title: 'Dashboards',
-		subtitle: 'Unique dashboard designs',
+		//title: 'Dashboards',
+		title: '대시보드',
+		//subtitle: 'Unique dashboard designs',
+		subtitle: 'GoodTether 대시보드',
 		type: 'group',
 		icon: 'heroicons-outline:home',
 		translate: 'DASHBOARDS',
 		children: [
 			{
 				id: 'dashboards.project',
-				title: 'Project',
+				//title: 'Project',
+				title: '프로젝트',
 				type: 'item',
 				icon: 'heroicons-outline:clipboard-document-check',
 				url: '/dashboards/project'
 			},
 			{
 				id: 'dashboards.analytics',
-				title: 'Analytics',
+				//title: 'Analytics',
+				title: '분석',
 				type: 'item',
 				icon: 'heroicons-outline:chart-pie',
 				url: '/dashboards/analytics'
 			},
 			{
 				id: 'dashboards.finance',
-				title: 'Finance',
+				//title: 'Finance',
+				title: '재무',
 				type: 'item',
 				icon: 'heroicons-outline:banknotes',
 				url: '/dashboards/finance'
 			},
 			{
 				id: 'dashboards.crypto',
-				title: 'Crypto',
+				//title: 'Crypto',
+				title: '암호화폐',
 				type: 'item',
 				icon: 'heroicons-outline:currency-dollar',
 				url: '/dashboards/crypto'

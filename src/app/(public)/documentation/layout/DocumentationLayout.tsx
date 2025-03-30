@@ -1,9 +1,13 @@
 'use client';
 
 import IconButton from '@mui/material/IconButton';
-import clsx from 'clsx';
+
+//import clsx from 'clsx';
+
 import { useEffect, useState } from 'react';
-import FuseNavigation from '@fuse/core/FuseNavigation';
+
+//import FuseNavigation from '@fuse/core/FuseNavigation';
+
 import { styled } from '@mui/material/styles';
 import useThemeMediaQuery from '@fuse/hooks/useThemeMediaQuery';
 import FuseSvgIcon from '@fuse/core/FuseSvgIcon';
@@ -11,10 +15,13 @@ import FusePageSimple from '@fuse/core/FusePageSimple';
 import usePathname from '@fuse/hooks/usePathname';
 import { Button } from '@mui/material';
 import Link from '@fuse/core/Link';
-import PurchaseButton from 'src/components/theme-layouts/components/PurchaseButton';
+
+//import PurchaseButton from 'src/components/theme-layouts/components/PurchaseButton';
+
 import PageBreadcrumb from 'src/components/PageBreadcrumb';
-import DocumentationNavigation from '../DocumentationNavigation';
-import DocumentationSidebarHeader from './DocumentationSidebarHeader';
+//import DocumentationNavigation from '../DocumentationNavigation';
+
+//import DocumentationSidebarHeader from './DocumentationSidebarHeader';
 
 const Root = styled(FusePageSimple)(({ theme }) => ({
 	'& [class^="language-"]': {
@@ -64,7 +71,9 @@ function DocumentationLayout(props: DocumentationLayoutProps) {
 							/>
 						</div>
 						<div className="flex shrink justify-end items-center space-x-1">
+							{/*
 							<PurchaseButton size="small">Purchase</PurchaseButton>
+							*/}
 							<Button
 								className="whitespace-nowrap"
 								component={Link}
@@ -89,11 +98,13 @@ function DocumentationLayout(props: DocumentationLayoutProps) {
 			}
 			leftSidebarContent={
 				<div className="px-1 py-6">
+					{/*
 					<DocumentationSidebarHeader className="mb-8 px-4" />
 					<FuseNavigation
 						className={clsx('navigation')}
 						navigation={DocumentationNavigation.children}
 					/>
+					*/}
 				</div>
 			}
 			leftSidebarOpen={leftSidebarOpen}
